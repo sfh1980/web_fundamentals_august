@@ -1,0 +1,27 @@
+#search{
+    width: 100px;
+    border: 1px solid grey;
+    color: grey;
+    border-radius: 15px;
+    margin-bottom: 20px;
+
+}
+#plus{
+    border-radius: 50%;
+    background-color: grey;
+    
+    border: 1px solid grey;
+    color: white;
+    margin-bottom: 20px;
+
+}
+#create{
+    width: 150px;
+    background-color: blue;
+    color: white;
+    
+
+}
+.shadow{
+    box-shadow: 5px 5px black
+}
