@@ -1,0 +1,21 @@
+h1{
+    background-color: black;
+}
+#title{
+    color: antiquewhite;
+}
+#title2{
+    color: blue;
+}
+h2{
+    background-color: purple;
+    color: antiquewhite;
+    text-align: center;
+    font-style: italic;
+}
+h3{
+    text-align: right;
+    background-color: aqua;
+    color: blueviolet;
+    font-style: normal;
+}
