@@ -1,0 +1,58 @@
+body{
+    background:url(./images/DTKlTU6.webp);
+    
+    
+    
+    
+}
+h1{
+    text-align: center;
+    font-style: oblique;
+    color: white;
+}
+
+.row1{
+    height: 300px;
+    background-color: lightblue;
+    border: 1px solid black ;
+    margin-bottom: 15px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+.row2{
+    height: 300px;
+    background-color: pink;
+    border: 1px solid black ;
+    margin-bottom: 15px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.row3{
+    height: 300px;
+    background-color: white;
+    border: 1px solid black ;
+    margin-bottom: 15px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.square{
+    height: 200px;
+    width: 200px;
+    background-color: coral;
+    /* border: 1px solid black; */
+    /* padding: 5px; */
+    justify-content: space-evenly;
+    
+}
+
+img{
+    height: 200px;
+    width: 200px;
+}
