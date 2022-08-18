@@ -15,31 +15,37 @@
     height: 300px;
     width: 200px;
     background-color: blue;
-    margin-top: 50px;    
+    margin-top: 20px;    
     display: inline-block;
+    
+    
 }
 .main {
     height: 400px;
-    width: 700px;
+    width: 630px;
     background-color: red;
     padding: 20px;
-    
+    margin: 20px;
     display: inline-block;
 }
 .sub-content {
     height: 200px;
-    width: 210px;
+    width: 200px;
     background-color: yellow;
     
     display: inline-block;
 }
 #advertisement {
     height: 120px;
-    width: 660px;
+    width: 630px;
     background-color: purple;
+    margin-top: 20px;
+    margin-left: 10px;
 }
 .row {
     /* TODO - what should go here? */
     /* display: flex; */
+    padding: 10px;
+    
 }
 
