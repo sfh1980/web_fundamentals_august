@@ -1,0 +1,190 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#nav-bar{
+    /* height: 100px; */
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    padding: 10px 140px;
+}
+
+#nav-links{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 20px;
+    list-style: none;
+}
+
+#nav-links a, h1{
+    color: white;
+    text-decoration: none;
+}
+
+#sign-out-button{
+    background-color:rgb(22,162,184);
+    color: white;
+    width: 75px;
+    height: 25px;
+    border: none;
+
+}
+
+.main-screen{
+    height: 1000px;
+    /* background-color: grey; */
+    display: flex;
+    gap: 20px;
+    padding: 20px 140px;
+
+}
+
+#left-col{
+    flex: 2;
+
+}
+
+#right-col{
+    flex: 1;
+
+}
+
+#user-card{
+    /* height: 500px; */
+    /* border: solid grey; */
+    /* margin: 20px; */
+    margin-bottom: 20px;
+
+}
+
+#user-card-banner{
+    /* height: 150px; */
+    background-color: aqua;
+
+}
+
+#user-card-banner > img{
+    height: 150px;
+    border-radius: 50%;
+    border: 5px double white;
+    background-color: black;
+    position: relative;
+    top: 75px;
+    left: 20px;
+    
+}
+
+#user-card-body{
+    /* height: 350px; */
+    border: 2px solid gray;
+    border-top: none;
+    padding-top: 80px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+}
+
+#user-card-body>h2{
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+
+#location{
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    
+}
+
+#location>img{
+    height: 20px;
+}
+
+#user-card-body>p{
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+#gear{
+    height: 20px;
+
+}
+
+#edit{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.other-cards{
+    /* border: 2px solid blue; */
+    /* height: 400px; */
+    margin-bottom: 20px;
+
+}
+
+.other-cards-top{
+    background-color: rgb(51,51,51);
+    color: white;
+    padding: 15px 0px 15px 20px;
+    font-size: 20px;
+
+}
+
+#ed-card-body{
+    padding: 20px;
+    font-size: 20px;
+    border: 2px solid grey;
+    border-top: none;
+}
+
+#ed-card-body>*{
+    margin-bottom: 10px;
+
+}
+
+.count{
+    background-color: lightgray;
+    border-radius: 50%;
+    padding: 4px 6px;
+    color: black;
+    margin-right: 5px;
+}
+
+.connection-body{
+    padding: 10px;
+    border: 3px solid gray;
+    border-top: none;
+}
+
+.other-person > img{
+    height: 30px;
+    border-radius: 50%;
+}
+
+.other-person{
+    display: flex;
+    align-items: center;
+    font-size: larger;
+    gap: 10px;
+    margin-bottom: 5px;
+}
+
+.accept-icon{
+    margin-left: 20px;
+
+}
+
+#view-more{
+    padding: 20px;
+    border: 3px solid gray;
+
