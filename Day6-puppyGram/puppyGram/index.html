@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Puppy Gram</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="nav-bar">
+        <h1>PuppyGram</h1>
+        <div id="nav-middle">
+            <input type="text" placeholder="Search a puppy name">
+            <button>Search!</button>
+        </div>
+        <button onclick="toggleLogin(this)">Login</button>
+    </div>
+    <div class="flex-container">
+        <div id="col-left">
+            <div class="puppy-box">
+                <div class="puppy-box-left">
+                    <img src="./resources/puppy.jpeg" alt="puppy1">
+                    <h3>Junior</h3>
+                    <em>Male</em>
+                    <p>Breed: <em>Fox</em></p>
+                    <button>10 likes</button>
+                    <button onclick="petDog()">Pet this puppy</button>
+                </div>
+                <p>Junior is a very spontaneous, high evergy <a href="#">Fox</a> who loves to eat food</p>
+            </div>
+            <div class="puppy-box">
+                <div class="puppy-box-left">
+                    <img src="./resources/beagle.jpeg" alt="puppy2">
+                    <h3>Fluffy</h3>
+                    <em>Female</em>
+                    <p>Breed: <em>Beagle</em></p>
+                    <button>8 likes</button>
+                    <button onclick="petDog()">Pet this puppy</button>
+                </div>
+                <p>Fluffy is a quiet, shy, and calm <a href="#">Beagle</a> who loves to play fetch</p>
+            </div>
+        </div>
+        <div id="idcol-right">
+            <div class="col-right-box">
+                <p>Please upload your pup info to our puppy social media</p>
+                <button>Upload new pup!</button>
+            </div>
+            <div class="col-right-box">
+                <p id="video-title">Our popular video of the week!</p>
+                <video src="./resources/puppy_video.mp4"></video>
+                <em>This is Josie, the playful beach dog!</em>
+            </div>
+        </div>
+    </div>
+    <div id="cookie-box">
+        <img src="./resources/caution.jpeg" alt="">
+        <p>This site will collect your information and bake it into a cookie which will be gluten free and no trans-fat (hydrogenated and partially hydrogenated oils)</p>
+        <button>I Accept</button>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>

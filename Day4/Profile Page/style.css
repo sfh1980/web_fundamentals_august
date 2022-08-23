@@ -166,7 +166,7 @@
     border-top: none;
 }
 
-.other-person > img{
+.other-person img{
     height: 30px;
     border-radius: 50%;
 }
@@ -177,8 +177,14 @@
     font-size: larger;
     gap: 10px;
     margin-bottom: 5px;
+    /* justify-content: space-between; */
 }
 
+.other-person > div{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
 .accept-icon{
     margin-left: 20px;
 
@@ -187,4 +193,3 @@
 #view-more{
     padding: 20px;
     border: 3px solid gray;
-
