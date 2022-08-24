@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Likes2</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Network</h1>
+    <div id="container">
+        <div id="feed">
+           <p>Your Feed</p>
+        </div>
+        <div id="flex-container">
+            <div id="left-col">
+                <img src="./images/user-circle.png" alt="">
+                <a href="#">Add an avatar</a>
+                <p>James Doe</p>            
+            </div>
+            <div id="right-col">
+                <div class="cards">
+                    <div class="card-top">
+                        <ul>
+                            <li>Neil M</li>
+                            <li id="counter"><span id="likes1Count">9</span> like(s)</li>
+                            <button onclick="increaseLikes('likes1Count')">Like</button>
+                        </ul>
+
+                    </div>
+                    <div class="card-bottom">
+                        <p>I just set up this new discord bot, let me know what you all think <a href="#">link</a></p>
+
+                    </div>
+                </div>
+                <div class="cards">
+                    <div class="card-top">
+                        <ul>
+                            <li>Nichole K</li>
+                            <li id="counter"><span id="likes2Count">12</span> like(s)</li>
+                            <button onclick="increaseLikes('likes2Count')">Like</button>
+
+                    </div>
+                    <div class="card-bottom">
+                        <p>Just finished my <a href="#">next comic</a>, check it out.</p>
+
+                    </div>
+
+                </div>
+                <div class="cards">
+                    <div class="card-top">
+                        <ul>
+                            <li>Jim R</li>
+                            <li id="counter"><span id="likes3Count">9</span> like(s)</li>
+                            <button onclick="increaseLikes('likes3Count')">Like</button>
+
+                    </div>
+                    <div class="card-bottom">
+                        <p>I cant stop listening to the <a href="#">new album</a>. Who else is liking it?</p>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>

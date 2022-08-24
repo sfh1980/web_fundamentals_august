@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#flex-container{
+    margin-left: 100px;
+    margin-top: 50px;
+    height: 250px;
+    width: 500px;
+    border: 3px solid black;
+}
+
+#top-half{
+    height: 175px;
+    width: 100%;
+    /* border: 2px solid blue; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+#counter{
+    list-style: none;
+    font-size: 20px;
+}
+
+button{
+    padding: 5px 10px;
+    box-shadow: 3px 3px 3px black;
+    background-color: burlywood;
+}
+
+#filler-text{
+    text-align: center;
+    /* padding-top: 10px; */
+}

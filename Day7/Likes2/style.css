@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    padding: 0px 100px;
+}
+
+h1{
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+}
+
+#container{
+    height: 800px;
+    width: 100%;
+    /* border: 3px solid yellow; */
+}
+
+#feed{
+    text-align: center;
+    font-size: 30px;
+    padding: 10px 0px;
+    /* border: 2px solid red; */
+}
+
+#flex-container{
+    height: 700px;
+    width: 100%;
+    /* border: 2px solid blue; */
+    display: flex;
+    gap: 20px;
+}
+
+#left-col{
+    flex: 1;
+    height: 350px;
+    width: 60%;
+    border: 1px solid black;
+    
+}
+
+#right-col{
+    flex: 3;
+    height: 650px;
+    width: 30%;
+    /* border: 1px solid black; */
+}
+
+#left-col > img{
+    height: 100px;
+    width: 100px;
+    position: relative;
+    top: 20px;
+    left: 70px;
+}
+
+#left-col > a{
+    position: relative;
+    top: 100px;
+    right: 30px;
+}
+
+#left-col > p{
+    position: relative;
+    top: 175px;
+    text-align: center;
+    font-size: 30px;
+}
+
+.cards{
+    height: 200px;
+    width: 700px;
+    border: 1px solid black;
+    margin-bottom: 20px;
+}
+
+.card-top{
+    height: 100px;
+    width: 700px;
+    /* border: 1px solid yellow; */
+    padding: 50px 20px;
+    font-size: 20px;
+}
+
+.card-bottom{
+    height: 100px;
+    width: 700px;
+    /* border: 1px solid red; */
+    text-align: center;
+    padding: 50px 20px;
+    font-size: 20px;
+    
+}
+
+.card-top li{
+    list-style: none;
+    
+}
+
+ul{
+    display: flex;
+    justify-content: space-between;
+    
+
+}
+
+button{
+    padding: 5px 10px;
+    box-shadow: 3px 3px 3px black;
+    background-color: burlywood;
+}
+
+
